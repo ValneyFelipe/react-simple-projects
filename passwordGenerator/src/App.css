@@ -1,0 +1,52 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+input[type=text], .btn-clipBoard {
+  border: none;
+  outline: none;
+  padding: 10px;
+}
+
+.container-textInput-clipBoard{
+  width: 480px;
+  margin: 20px auto;
+  display: flex;
+  align-items: center;
+  border: 1px solid #cbcacab6;
+}
+/*style textInput*/
+.textInput{
+  width: 430px;
+  color: tomato;
+  font-weight: bold;
+}
+
+/*style copy password button*/
+.btn-clipBoard{
+  background-color: #41d47e;
+  width: 60px;
+  color: #000;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+/*container styles -> rangeInput and labels*/
+.box-input-label-flex{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: tomato;
+  font-weight: 500;
+}
+
+/* styles -> rangeInput and these labels -> length, Numbers, Characters */
+.container-ranger-numbers-char-inputs {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  gap: 10px;
+}
