@@ -26,8 +26,8 @@ function App() {
       </div>
       
       <div className='btns-container'>
-        <button onClick={prevPhoto}>Next</button>
-        <button onClick={nextPhoto}>Previous</button>
+        <button onClick={prevPhoto}>Previous</button>
+        <button onClick={nextPhoto}>Next</button>
       </div>
     </div>
   )
